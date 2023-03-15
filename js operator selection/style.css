@@ -1,0 +1,64 @@
+
+body{
+    background: linear-gradient(to right,pink,#478bf1);
+    
+}
+.container{
+    /* height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;  */
+
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+       
+}
+.main{
+    padding: 15px;
+    border-radius: 15px;
+    background: rgb(206, 249, 161);
+    box-shadow: 8px 1px 15px 1px black;
+    box-sizing: border-box;
+}
+.common{
+    margin-bottom: 7px;
+}
+
+.common #edit{
+    font-size:25px;
+}
+input[type=text]
+{
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+ #right{
+    float: right;
+    padding: 10px;
+}
+select{
+    padding: 5px;
+    border: none;
+}
+#btn{
+    border: none;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#btn:hover{
+    background:silver ;
+    border: 2px solid black;
+}
+#result{
+    font-size: 20px;
+    font-weight:bold;
+}
+option{
+    color: rgb(102, 3, 3);
+}
